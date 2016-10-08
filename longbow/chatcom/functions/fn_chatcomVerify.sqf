@@ -20,7 +20,7 @@ Arguments:
 	NONE
 
 Returns:
-	NOTHING
+	BOOLEAN
 
 *****************************************************************************/
 if (inputAction "Chat" > 0) then
