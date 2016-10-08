@@ -15,3 +15,7 @@ In this particular example configuration, every chat message starting with '!' w
 in multiplayer, open chat and type in '!help' - the script will look for its clas, and will compile the code
 
 if you type in '!stat one two three' - it will call the code for 'stat' command, supplying arguments as ["one","two","three"] in _this variable.
+
+## Installation
+Script is packaged to comply A3MS guidelines, once you have extracted the Arma 3 Mission Skeleton into your mission folder, copy the contents of this repo to 'addon' directory inside your mission's root.
+After that run 'build.bat' script, shipped with A3MS.
