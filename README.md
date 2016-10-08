@@ -3,8 +3,10 @@
 This script module allows to configure chat commands, entered into chat, similar to server commands starting with '#' (like #login, #kick and etc)
 
 ## Script configuration
-Script configuration files are located in longbow\chatcom\settings directory
-config.hpp contains the definition of leading character, telling script to treat it as custom chat command
+Script configuration files are located in longbow\chatcom\settings directory.
+
+config.hpp contains the definition of leading character, telling script to treat it as custom chat command.
+
 commands.hpp contains the definition of commands, every command is defined as a class and should contain a text, named 'code', which will be compiled, once command is issued.
 
 In this particular example configuration, every chat message starting with '!' would be treated as command, command name should be followed by a whitespace, everythin after it is used as command arguments (supplied to code as an array of words, delimitered by a white space)
